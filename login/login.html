@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>InterNews - Instituto Tecnológico Superior de Xalapa</title>
+        <script type="text/javascript">
+            function getUsuario ()
+        </script>
+    </head>
+    <body>
+        <div class="header-img" id="encabezado">
+            <img src="img/encabezado.png" title="Encabezado ITSX" alt=""/>
+        </div>
+        <div class="login-container">
+            <div class="login-information">
+                <h1><b>InterNews</b></h1>
+                <img class="center-img" src="img/tecnm_logo.png" title="Logotipo TecNM" alt=""/>
+                <h2>Instituto Tecnológico Superior de Xalapa</h2>
+                <div class="input-login">
+                    <form id="enviarDatos" action="../inicio.html">
+                        <p>
+                            <label for="NoControl"><b>Número de control</b></label>
+                            <br>
+                            <input type="text" id="NoControl" name="NoControl" placeholder="Usuario" maxlength="9" required/>
+                        </p>
+                        <p>
+                            <label for="Contraseña"><b>Contraseña</b></label>
+                            <br>
+                            <input type="password" id="Contraseña" name="Contraseña" placeholder="Contraseña" required/>
+                        </p>
+                        <p>
+                            <input form="enviarDatos" class="btnIniciar" type="submit" value="Iniciar Sesión"/>
+                        </p>
+                    </form>
+                </div>
+                <p>
+                    Recupera tu contraseña, haz clic
+                    <a href="#" title="Recuperar Contraseña" formmethod="get" style="text-decoration: none">
+                        <i>aquí</i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
