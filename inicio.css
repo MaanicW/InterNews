@@ -33,25 +33,29 @@ nav {
 
 nav ul { /*Bien*/
     list-style-type: none;
-    height: 40px;
-    width: 800px;
-    padding: 2px;
+    height: 100%;
+/*     height: 40px;
+    width: 800px; */
     background-color: #333;
-    text-align: center;
+/*     text-align: center; */
   }
   
 nav ul li { /*Bien*/
     display: inline-block;
-     width: 150px;
+/*     width: 150px; */
     vertical-align: top;
 }
+
+#exit {  /*Bien*/
+    float: right;
+    background-color: #ce4a4a;
+ }
   
 nav ul li a { /*Bien*/
     display: block;
     color: white;
     text-decoration: none;
     padding: 14px 16px;
-    margin: 5px;
 }
 
   /* Change the link color to #111 (black) on hover */
@@ -64,8 +68,8 @@ nav ul li ul li { /*Bien*/
 }
 
 nav ul li ul { /*Bien*/
-    width: 150px;
-    height: 150px;
+/*     width: 150px;
+    height: 150px; */
     display: none;
 }
 
@@ -75,8 +79,4 @@ nav ul li:hover ul { /*Bien*/
 
 nav ul li ul:hover li { /*Bien*/
     display:block;
-}
-
-.exit {/*Bien*/
-    background-color: #ce4a4a;
 }
