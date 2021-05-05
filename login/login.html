@@ -7,14 +7,18 @@
         <title>InterNews - Instituto Tecnológico Superior de Xalapa</title>
     </head>
     <body>
-        <div class="header-img" id="encabezado">
-            <img src="img/encabezado.png" title="Encabezado ITSX" alt=""/>
-        </div>
+        <header>
+            <div class="header-img" id="encabezado">
+                <img src="img/encabezado.png" title="Encabezado ITSX" alt=""/>
+            </div>
+        </header>
         <div class="login-container">
             <div class="login-information">
                 <h1><b>InterNews</b></h1>
+                <br/>
                 <img class="center-img" src="img/tecnm_logo.png" title="Logotipo TecNM" alt=""/>
                 <h2>Instituto Tecnológico Superior de Xalapa</h2>
+                <br/>
                 <div class="input-login">
                     <form id="enviarDatos" action="../inicio.html">
                         <p>
@@ -22,22 +26,26 @@
                             <br>
                             <input type="text" id="NoControl" name="NoControl" placeholder="Usuario" maxlength="9" required/>
                         </p>
+                        <br/>
                         <p>
                             <label for="Contraseña"><b>Contraseña</b></label>
                             <br>
                             <input type="password" id="Contraseña" name="Contraseña" placeholder="Contraseña" required/>
                         </p>
+                        <br/>
                         <p>
                             <input form="enviarDatos" class="btnIniciar" type="submit" value="Iniciar Sesión"/>
                         </p>
                     </form>
                 </div>
-                <p>
+                <!--Revisar si es que se utiliza o no-->
+                <!--Quitar todo aquello relacionado con registro-->
+<!--                 <p>
                     Recupera tu contraseña, haz clic
-                    <a href="./registro.html" title="Recuperar Contraseña" formmethod="get" style="text-decoration: none">
+                    <a href="registro.html" title="Recuperar Contraseña" style="text-decoration: none">
                         <i>aquí</i>
                     </a>
-                </p>
+                </p> -->
             </div>
         </div>
     </body>
