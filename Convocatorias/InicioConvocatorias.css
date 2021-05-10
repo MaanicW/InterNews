@@ -141,9 +141,46 @@ header {
   height: 75px;
   width: 100%;
 }
+
 header .overlay2 {
   width: 100%;
   height: 100%;
   padding: 20px;
   color: #white;
 }
+
+.Cuadros {
+  width: 100%;
+  height: 80%;
+  padding: 20px;
+  color: #white;
+  background-color: #4343;
+}
+
+.Cuadro1 {
+  margin: auto;
+  margin-top: 20px;
+  width: 1800px;
+  height: 200px;
+  background-color: grey;
+  padding: 70px;
+}
+
+.Cuadro2 {
+  margin: auto;
+  margin-top: 20px;
+  width: 1800px;
+  height: 200px;
+  background-color: grey;
+  padding: 70px;
+}
+
+.Cuadro3 {
+  margin: auto;
+  margin-top: 20px;
+  width: 1800px;
+  height: 200px;
+  background-color: grey;
+  padding: 70px;
+}
+
