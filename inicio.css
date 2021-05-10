@@ -1,82 +1,124 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    width: 100%;
-    height: 900px;
+  width: 100%;
+  height: 900px;
 }
 
+/* INICIO - ENCABEZADO */
 header {
-    height: 100px;
-	width: 100%;
-    text-align: start;
+  height: 75px;
+  width: 100%;
 }
 
-header .overlay{
-	width: 100%;
-	height: 100%;
-	padding: 50px;
-	color: #FFF;
-	text-shadow: 1px 1px 1px #333;
-    background-image: repeating-linear-gradient(135deg, #001f28 10%, #dbc613 70%);
+header .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  color: #fff;
+  background-image: repeating-linear-gradient(135deg, #001f28 20%, #dbc613 70%);
 }
+/* FIN - ENCABEZADO */
 
+/* INICIO - NAVIGATION BAR */
 nav {
-    height: 50px;
-    width: 100%;
-    background-color: gray;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  font-size: 16px;
+  background-color: gray;
 }
 
-nav ul { /*Bien*/
-    list-style-type: none;
-    height: 100%;
-/*     height: 40px;
-    width: 800px; */
-    background-color: #333;
-/*     text-align: center; */
-  }
-  
-nav ul li { /*Bien*/
-    display: inline-block;
-/*     width: 150px; */
-    vertical-align: top;
+.navBar {
+  flex-flow: row wrap;
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  background-color: #333;
 }
 
-#exit {  /*Bien*/
-    float: right;
-    background-color: #ce4a4a;
- }
-  
-nav ul li a { /*Bien*/
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 14px 16px;
+.navBar li {
+  display: inline-block;
+  vertical-align: top;
 }
 
-  /* Change the link color to #111 (black) on hover */
-nav ul li a:hover { /*Bien*/
-    background-color: #111111;
+.navBar li a {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
 }
 
-nav ul li ul li { /*Bien*/
-    display: block;
+/* INICIO - TAMAÑO DE LOS NAVIGATE */
+.inicio {
+  height: 100%;
+  width: 10%;
 }
 
-nav ul li ul { /*Bien*/
-/*     width: 150px;
-    height: 150px; */
-    display: none;
+.actividades {
+  height: 100%;
+  width: 10%;
 }
 
-nav ul li:hover ul { /*Bien*/
-    display: block;
+.chat {
+  height: 100%;
+  width: 10%;
 }
 
-nav ul li ul:hover li { /*Bien*/
-    display:block;
+.participantes {
+  height: 100%;
+  width: 20%;
 }
+
+.perfil {
+  height: 100%;
+  width: 10%;
+}
+
+.seguimiento {
+  height: 100%;
+  width: 10%;
+}
+
+.salir {
+  height: 100%;
+  width: 10%;
+  float: right;
+  background-color: #ce4a4a;
+}
+/* FIN - TAMAÑO DE LOS NAVIGATE */
+
+.navBar li ul li {
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+
+.navBar li a:hover {
+  background-color: #111111;
+}
+
+.salir a:hover {
+  background-color: #e03131 !important;
+}
+
+.navBar li ul {
+  display: none;
+}
+
+.navBar li:hover ul {
+  display: block;
+}
+
+.navBar li ul:hover li {
+  display: block;
+}
+/* FIN DEL NAVIGATION BAR */
