@@ -95,15 +95,26 @@ nav {
   background-color: #ce4a4a;
 }
 /* FIN - TAMAÑO DE LOS NAVIGATE */
-
+/*Corregi el menú desplegable de Actividades CARLOS*/ 
 .navBar li ul li {
   display: flex;
   height: 50px;
   width: 100%;
 }
+.navBar li a{
+  background-color: #333;
+  color:#fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
 
 .navBar li a:hover {
-  background-color: #111111;
+  background-color: #434343;
+}
+
+.nav > li {
+  float: left;
 }
 
 .salir a:hover {
@@ -112,9 +123,11 @@ nav {
 
 .navBar li ul {
   display: none;
+  position: absolute;
+  min-width: 140px;
 }
 
-.navBar li:hover ul {
+.navBar li:hover > ul {
   display: block;
 }
 
